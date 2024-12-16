@@ -31,6 +31,10 @@
       <Name>Tbl Dim Date.dim</Name>
       <FullPath>Tbl Dim Date.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>TBL dim category.dim</Name>
+      <FullPath>TBL dim category.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

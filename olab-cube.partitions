@@ -1,17 +1,77 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4fcde7aa-c777-41ba-8a93-b1edc408f41c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f5fe2a2b-ee9a-4e1a-b296-19f67213e1f2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>olab-cube</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Tbl Fact Aqi</ID>
       <Partitions>
-        <Partition dwd:design-time-name="3c987909-bb0b-46c1-bc11-d1841d447df4">
+        <Partition dwd:design-time-name="a9a435d2-ea93-4e9b-8584-2d50c73426ad">
           <ID>Tbl Fact Aqi</ID>
           <Name>Tbl Fact Aqi</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8d342a08-c1a4-42a7-b596-78e8666bed51">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="be68ad19-fec1-4f3b-9f0a-a3537216f90e">
+            <DataSourceViewID>AQI WAREHOUSE vw</DataSourceViewID>
+            <TableID>dds_tbl_fact_aqi</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tbl Dim States</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ecef4352-8669-4c01-a33e-5b5711b14166">
+          <ID>Tbl Dim States</ID>
+          <Name>Tbl Dim States</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b008eb5d-9235-42cb-a004-d51581589039">
+            <DataSourceViewID>AQI WAREHOUSE vw</DataSourceViewID>
+            <TableID>dds_tbl_dim_states</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tbl Dim Date</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8321ac68-8393-4524-8a03-4697b29ae208">
+          <ID>Tbl Dim Date</ID>
+          <Name>Tbl Dim Date</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e2706d3c-f5d3-4295-9fca-4974855a4e81">
+            <DataSourceViewID>AQI WAREHOUSE vw</DataSourceViewID>
+            <TableID>dds_tbl_dim_date</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tbl Fact Aqi 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="81d0b246-b55c-491d-993e-d70f25c4e795">
+          <ID>Tbl Fact Aqi</ID>
+          <Name>Tbl Fact Aqi</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="226de4fe-36cb-4b32-aa02-4764d7f61aa0">
             <DataSourceViewID>AQI WAREHOUSE vw</DataSourceViewID>
             <TableID>dds_tbl_fact_aqi</TableID>
           </Source>
