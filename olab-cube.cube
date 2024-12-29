@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c0f5621a-05bd-461d-a949-e7df44522131" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fd6c076c-1e5b-4e16-af47-32925381c293" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>olab-cube</ID>
   <Name>olab-cube</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8821" scrolltop="-1670" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="9313" y="8300" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8821" scrolltop="-1670" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="9313" y="9812" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001153e0100065461686f6d61" />
             </font>
@@ -180,208 +180,211 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="f1cd834f-d04a-427b-88d4-bd8527b9abd0">
+    <Dimension dwd:design-time-name="9714b488-2448-47d2-b8f3-f06a0e78c1ff">
       <ID>Tbl Dim States</ID>
       <Name>Tbl Dim States</Name>
       <DimensionID>Tbl Dim States</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d86ce216-b6d6-4816-be0d-76cd4b0f64e6">
+        <Attribute dwd:design-time-name="f877a211-de5b-4102-863a-59499e1bdb8e">
           <AttributeID>State Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="47992ea7-5f6b-49af-9206-f77a55a55228">
+        <Attribute dwd:design-time-name="30a219fc-a3d1-4bc1-835e-61c38c2b994c">
           <AttributeID>State Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c8db3dc4-31e9-4b1b-8125-056dca799050">
+        <Attribute dwd:design-time-name="f7f72295-2f4c-42b2-92a8-a158884f25ae">
           <AttributeID>State Alpha Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="688ff033-a10f-41b8-9b60-38e223880c0e">
+        <Attribute dwd:design-time-name="402e7b51-ea5f-4b1b-b8d4-1bc40e682b1e">
           <AttributeID>State Number Code</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="24dbc40b-37cd-4eef-9aab-28b15f8460a0">
+    <Dimension dwd:design-time-name="931fc32b-717e-4d3f-bb47-1c54ded38ca7">
       <ID>Tbl Dim Counties</ID>
       <Name>Tbl Dim Counties</Name>
       <DimensionID>Tbl Dim Counties</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2dd65b49-8fcc-4e5e-ba3b-e2b1c7354cf1">
+        <Attribute dwd:design-time-name="6a800239-a385-47ee-9919-31f708fd5c84">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="08ab301b-e145-410e-9696-06ab86a1ce94">
+        <Attribute dwd:design-time-name="7a34372e-c17e-4ed1-8d25-28894c4305ad">
           <AttributeID>State Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5970fa7f-554e-4a13-a1cb-43dca03537ba">
+        <Attribute dwd:design-time-name="fdd83e4e-0d7b-44c4-8cc4-09a9239bd66d">
           <AttributeID>County Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="38fe7c50-e824-45cf-aafe-9df1aff26f65">
+        <Hierarchy dwd:design-time-name="0d5b002f-cee6-44a0-be04-652ae3e4da30">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="ebeb2742-1c94-4715-bf6c-3b761a052432">
+    <Dimension dwd:design-time-name="24224602-a447-47e0-ac63-79535e899f75">
       <ID>Tbl Dim Date</ID>
       <Name>Tbl Dim Date</Name>
       <DimensionID>Tbl Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5c70dd90-d142-4f98-8bfa-e480920ac491">
+        <Attribute dwd:design-time-name="2082a54c-6c58-4274-9abb-312d843bec7f">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="879db343-8ae4-4fa5-8534-f9ec6ac5a7f7">
+        <Attribute dwd:design-time-name="2f514421-6736-49e1-a9bc-5651c612dcdc">
           <AttributeID>Calendar Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="23c084be-607e-47e1-9ac2-700739aabf69">
+        <Attribute dwd:design-time-name="b68d1146-c8b3-4119-a492-a86a0b80b26a">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5eebfbf1-69c8-4728-bd1d-f3c38435f10a">
+        <Attribute dwd:design-time-name="d6694ec6-1bb6-4612-ae71-9f86b52689bb">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a3cbf129-c2ee-4db3-847e-f14a22f1b620">
+        <Attribute dwd:design-time-name="c3677e4b-f17f-42bb-8649-87990d75947b">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c83d7956-4e2d-457a-b593-48a96633e2ea">
+        <Attribute dwd:design-time-name="a42fadd4-4bb5-4b31-9318-4d1824900df4">
           <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3aef2d7-e09d-4d29-9311-e20b924492ac">
+          <AttributeID>Is Daylight Saving</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="e21815e8-c266-41e5-bd02-d7163b89de60">
+        <Hierarchy dwd:design-time-name="bd493d7f-30e6-4380-9af7-aefb9214bcce">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="c010f6aa-52f0-4c38-914b-9ac7b1930037">
+    <Dimension dwd:design-time-name="eea36cf4-21e1-40c2-a16a-135d78cde478">
       <ID>Tbl Dim Counties - State</ID>
       <Name>Tbl Dim Counties - State</Name>
       <DimensionID>Tbl Dim States</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ab4c4014-8daf-4226-941f-b2d9da7ec69c">
+        <Attribute dwd:design-time-name="fee5299d-d7af-472f-a6ad-3c36f888790d">
           <AttributeID>State Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c79b1e97-9da5-4ca5-bd81-c0c2015e33bc">
+        <Attribute dwd:design-time-name="f062e43e-73e6-4799-8a73-56db98a67c9a">
           <AttributeID>State Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2e70288c-28ac-4017-8547-79b0ccb61eb2">
+        <Attribute dwd:design-time-name="dc27ac0e-33f5-485f-b997-ffe9809ab614">
           <AttributeID>State Alpha Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6630702f-2c0f-4922-bb6a-d39e83c9a638">
+        <Attribute dwd:design-time-name="98ff2dba-da35-4c24-86aa-217cdfff654b">
           <AttributeID>State Number Code</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="6c036efa-82a5-418a-81ac-2620d7ef2f74">
+    <Dimension dwd:design-time-name="cd2b228a-e861-48da-aefb-318fa5821326">
       <ID>TBL dim category</ID>
       <Name>TBL dim category</Name>
       <DimensionID>TBL dim category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="be417093-dec2-461a-8ad4-eb9dd3f71e72">
+        <Attribute dwd:design-time-name="607c321e-c2eb-496c-a00e-cbac95ef1eec">
           <AttributeID>Aqi Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2315464f-e94e-49a1-b726-a52ca92f83c6">
+        <Attribute dwd:design-time-name="264c623a-7e1f-4ff8-99e0-47ccd6105c2d">
           <AttributeID>Category</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8fb0b58b-ab1c-4a0d-8370-ebfe0f056bca">
+        <Attribute dwd:design-time-name="1b34b372-3034-4bf3-b2f3-002244a573bd">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="00b0d213-25cf-4a8b-bcfa-c44cd82784f6">
+        <Attribute dwd:design-time-name="cdea1191-ef88-4e07-b97e-3b3aff02ec39">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="effad0d4-f8fb-4a5c-ad51-a14cde7e773c">
+        <Attribute dwd:design-time-name="5e78e58a-f8fa-49f6-808f-6e6a442bf195">
           <AttributeID>State Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8b3f23f7-243a-4eba-968d-317c00f9a478">
+    <Dimension dwd:design-time-name="1d5fdf20-351d-4320-b118-d88a5288c3d1">
       <ID>Date</ID>
       <Name>Date</Name>
       <DimensionID>TBL dim category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0cabe4a4-eb27-48f8-a746-f73d1dc428b2">
+        <Attribute dwd:design-time-name="3bb43052-8783-4dd8-b5bf-61165851341c">
           <AttributeID>Aqi Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e078a663-3f7d-4e2f-86ce-c1611eba6f69">
+        <Attribute dwd:design-time-name="3aeb4bf6-9a63-43e5-abd5-0d922bae50ba">
           <AttributeID>Category</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dfb4ddb7-6c54-4cb7-9c70-3a9d36ae2326">
+        <Attribute dwd:design-time-name="7ce3a449-3d60-4956-8376-641b238d022a">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0e1b201a-7d67-40d3-b2a7-f4366f9e153c">
+        <Attribute dwd:design-time-name="3686aad1-6cbe-4550-ba18-3351e13d3bdb">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cc89f2f1-e1f2-4924-bebe-405d034d9403">
+        <Attribute dwd:design-time-name="f5830c73-d554-4abf-99dc-5ce975e03f82">
           <AttributeID>State Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8542cb09-28aa-4832-b7bf-b91d898735a9">
+    <Dimension dwd:design-time-name="d0ffa0bd-1ec2-49af-91e4-8c3d7d226da9">
       <ID>County</ID>
       <Name>County</Name>
       <DimensionID>TBL dim category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fd0fe812-d098-46ba-9fa8-59cd287e1c62">
+        <Attribute dwd:design-time-name="bd6b1ead-d402-40b2-8da1-c7f10241affe">
           <AttributeID>Aqi Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="44427074-da59-415c-851b-ccb1e37e81a2">
+        <Attribute dwd:design-time-name="6114c640-0dc0-45d6-847b-dede731ed83a">
           <AttributeID>Category</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="46ba8b11-edb1-42b2-be60-3984ecaff338">
+        <Attribute dwd:design-time-name="a705f792-69ce-409a-b057-8fcdef0673f9">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="832a3661-850b-456a-8468-131a0c1bcf7e">
+        <Attribute dwd:design-time-name="611b4519-bbbb-4566-855e-c29602d37ee0">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="06b1b8ca-81ed-4b1e-977a-0081ed2ba3a6">
+        <Attribute dwd:design-time-name="c6060609-9128-4fa8-8345-5413d8dbb44d">
           <AttributeID>State Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="74cdbc74-1523-4a2e-b94e-f30cdcb947b2">
+    <Dimension dwd:design-time-name="a1016614-37a4-4baa-9c51-4294cf831903">
       <ID>State</ID>
       <Name>State</Name>
       <DimensionID>TBL dim category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="99584d66-e47a-4c3a-a4e0-9114baabe7de">
+        <Attribute dwd:design-time-name="5be660ac-b090-411b-8a88-d182d9d8b31d">
           <AttributeID>Aqi Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0cd6ee3f-82d7-426b-b1f9-c675eb527f59">
+        <Attribute dwd:design-time-name="b0d9f01f-0687-42ce-be06-9975f6d7956e">
           <AttributeID>Category</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c9e6f711-9b91-4fe9-bdc7-deec39a8f365">
+        <Attribute dwd:design-time-name="23721e27-182e-4844-98ac-babb361fcab8">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3bf79836-8c37-4c62-82f8-cbc596dc864b">
+        <Attribute dwd:design-time-name="ee24a18a-208a-459a-99f4-3bfd63eed83b">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6505a0f3-268e-4543-bbc8-b9928e577286">
+        <Attribute dwd:design-time-name="3e565cc7-65c1-4d5b-9b67-d48fa08c0f3d">
           <AttributeID>State Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="39082251-7bc3-485a-9dd5-f4f041fdc83e">
+    <Dimension dwd:design-time-name="41fce601-4123-4afb-ba22-29e02d3fe289">
       <ID>Tbl Dim Counties - State 1</ID>
       <Name>Tbl Dim Counties - State 1</Name>
       <DimensionID>TBL dim category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="bfadb94d-3dca-421e-b8f4-6aa901aee6dc">
+        <Attribute dwd:design-time-name="8710f705-1a14-490e-9510-6c360f7cda8b">
           <AttributeID>Aqi Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4c80a0db-0c6d-482c-8d24-111eb63df300">
+        <Attribute dwd:design-time-name="bc9340b0-7e72-4a77-9f24-f12bae9604dc">
           <AttributeID>Category</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1d028456-ba4c-4de0-baae-5ef4db3d23af">
+        <Attribute dwd:design-time-name="64e381fc-a66b-4a52-8204-f774c513f049">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="04491b1c-04f3-4c4d-b105-98b011458000">
+        <Attribute dwd:design-time-name="1e27c864-af0b-4e4d-9bec-e3fc30d51896">
           <AttributeID>County Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f67382dc-5bf3-49da-b13f-fbff533bc4b9">
+        <Attribute dwd:design-time-name="e3a5a65e-66ca-4ada-b21c-6d04674b9c43">
           <AttributeID>State Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="69c21ea9-5cef-451d-8cd0-c832e03335a1">
+    <MeasureGroup dwd:design-time-name="dbb7bdb0-7cd0-4abc-8685-52800787b979">
       <ID>Tbl Fact Aqi</ID>
       <Name>Tbl Fact Aqi</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -389,166 +392,166 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="f060f924-0336-46a0-8074-7b84e5b6a42a">
+        <Measure dwd:design-time-name="2080863b-6c52-44fd-8b11-949989ae2ecc">
           <ID>Aqi</ID>
           <Name>Aqi</Name>
-          <Source dwd:design-time-name="7c5f63e8-79a2-45f2-939f-e422f880ce66">
+          <Source dwd:design-time-name="e3c5f698-6507-4148-a137-b5686ccf00fc">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e6032813-9f13-472c-9383-f75adb129d25">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="feab9b64-63f9-479f-8e39-d5ee9992a859">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>aqi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="401d2c39-2a61-4c09-98d4-cdc650169839">
+        <Measure dwd:design-time-name="c6fdebc8-54a0-4f16-8971-db9ef3fa26a6">
           <ID>Number Of Sites Reporting</ID>
           <Name>Number Of Sites Reporting</Name>
-          <Source dwd:design-time-name="d8233ac5-9d10-4363-b1f0-95b99a5abbb5">
+          <Source dwd:design-time-name="34fd114f-23d6-4ac2-a14f-9e857086a771">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="198188df-eb09-4792-b5b1-5013252bd792">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="99e8b94a-b671-41de-b088-ea946e460ff1">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>number_of_sites_reporting</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="461891cd-a00a-41f6-b015-468f35c8b3b3">
+        <Measure dwd:design-time-name="ce7359c6-ca4e-4999-a656-c05fae463798">
           <ID>Source Id</ID>
           <Name>Source Id</Name>
-          <Source dwd:design-time-name="d0b6c5c7-f6e1-4aec-806f-eb4ff772b6e8">
+          <Source dwd:design-time-name="6a1e9c90-90c5-44e6-af35-bb37fcb35482">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="73e86588-c4e3-4952-90ba-3dca5e0b156a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0cce5b40-bbe2-4b60-94e1-34f44956e93a">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>source_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="d0370a4c-4a8d-446e-b14c-ada0c23a01b6">
+        <Measure dwd:design-time-name="4dfe9080-1688-479c-afe7-8ce8f48cf2d2">
           <ID>Tbl Fact Aqi Count</ID>
           <Name>Tbl Fact Aqi Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="11b29e9a-9d91-4570-9eb8-e19b561ab4b9">
+          <Source dwd:design-time-name="90b1dbae-3511-4403-b2a2-0f0855d13269">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2b54fc79-e7f1-48a1-9978-b0423d64f279">
+            <Source xsi:type="RowBinding" dwd:design-time-name="a33de629-1545-4b89-b9f5-8ac54cb48f0a">
               <TableID>dds_tbl_fact_aqi</TableID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="f96c2ef5-09e8-4172-b975-f59c211d497b">
+        <Measure dwd:design-time-name="d9f14557-d73b-475f-b62b-10608316ba7b">
           <ID>Date Id</ID>
           <Name>Date Id</Name>
-          <Source dwd:design-time-name="9d926607-11c2-456a-88d1-ac7086054380">
+          <Source dwd:design-time-name="765a0101-f9c0-4956-9f18-91c77a997918">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="db5e8352-a0d8-4ee9-a2cb-a8c7f92eefa2">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ac41ea00-8ee1-431b-b78e-fa0675b8e120">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>date_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c1a4c6d0-f450-48a1-918c-de895e824b99">
+        <Measure dwd:design-time-name="dd2e4c22-54fa-4767-b12a-f8fe39d27bb2">
           <ID>State Id</ID>
           <Name>State Id</Name>
-          <Source dwd:design-time-name="e0d79e3c-1912-491e-bc92-f234eba1c9bc">
+          <Source dwd:design-time-name="15f74606-516d-4676-9300-f832b14bb066">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c43c9690-6432-4bc8-8bc2-03c69194a1c5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="762e2d31-d07b-4a4f-98aa-4a57294766fb">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>state_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1566e346-7c4b-4b99-a336-92f09322bb06">
+        <Measure dwd:design-time-name="5bfb9e1d-c89c-4271-b83a-35d1b9611318">
           <ID>County Id</ID>
           <Name>County Id</Name>
-          <Source dwd:design-time-name="bbabb399-0971-46a3-8eca-85f57c0e8bf5">
+          <Source dwd:design-time-name="a9690bbe-c789-49e4-b960-8dc422e14e00">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="998f0847-b642-41ed-abf2-955341a60359">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="32241fa5-9bd2-4192-bf58-18cc5552fcbb">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>county_id</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="cf09c9c7-4821-44fc-8f8b-2412ba4f1c64">
+        <Measure dwd:design-time-name="39edb619-9b7d-4ea0-ba6f-67bc4916973d">
           <ID>Category Count</ID>
           <Name>Category Count</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="c6de6e4e-9f8d-4131-a2d3-e3bdaa315157">
+          <Source dwd:design-time-name="8c969f7b-38e3-4267-b71d-cb2b98616726">
             <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f4fccaa8-b137-4430-a589-6b07aa61f252">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2b52ce1f-aec6-4433-a0b6-7353ff057c1a">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>category</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c875ce5e-e463-4c51-b028-f56250038499">
+        <Measure dwd:design-time-name="aac0cb87-013e-4f36-850b-5e16ee61be56">
           <ID>Defining Parameter Count</ID>
           <Name>Defining Parameter Count</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="4541fb23-e71b-43e3-b5ed-4f6c756e9611">
+          <Source dwd:design-time-name="586baaf5-79c3-4b1c-be01-314bde41558a">
             <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3ac2dbd3-dae2-45f9-ad20-b207e8e29ecf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cf6a0328-2cba-4593-a6a3-2d5cbb788a80">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>defining_parameter</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b5fdbe79-4a1b-4a97-965c-6fda125cbe4b">
+        <Measure dwd:design-time-name="028dd938-6e04-47f6-9cf4-b3f0c55066ed">
           <ID>Defining Site Count</ID>
           <Name>Defining Site Count</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="9bf10e6e-8d9a-4b1b-bc88-ce7c26c1f4d5">
+          <Source dwd:design-time-name="3cfdaf8c-4f8d-42a6-bd06-f245290ae89f">
             <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="24097b4a-5201-4a6c-8c3d-8ca3e2755bb9">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e60a7ad4-0025-4eac-95a2-c30dbde2c93b">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>defining_site</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2787b87f-8d2c-41a8-aee2-7dbe60c27c03">
+        <Measure dwd:design-time-name="9dc0a65d-7650-4d66-803e-9e3ed54736a8">
           <ID>Maximum Aqi</ID>
           <Name>Maximum Aqi</Name>
           <AggregateFunction>Max</AggregateFunction>
-          <Source dwd:design-time-name="4ad4bc9d-9f74-462a-a113-b2a17b2bca32">
+          <Source dwd:design-time-name="1def2310-741d-42d2-bd5c-0b5ebf356f58">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1c3e94c-c3ed-4eb5-b97d-55534fa38b03">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5e94afbc-089b-49ed-8e19-a0ca0c5d4832">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>aqi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9457c63e-0d6d-4cb6-804f-358e337b23c6">
+        <Measure dwd:design-time-name="184601d0-f9d8-4149-8b30-d0c2fc02f97d">
           <ID>Minimum Aqi</ID>
           <Name>Minimum Aqi</Name>
           <AggregateFunction>Min</AggregateFunction>
-          <Source dwd:design-time-name="9f585122-3d75-490c-96ed-9f7dc72a7fa0">
+          <Source dwd:design-time-name="b5a333eb-69eb-4159-9768-2499d2236fb0">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a3643bd-f5dc-4b79-8e5a-8a41ff856f42">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="91b9458d-8762-4740-9eac-61aa28a9553a">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>aqi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2a2c24b8-8fde-4206-aff2-0cb997cc7ed4">
+        <Measure dwd:design-time-name="1c51405a-7003-4e9a-a605-262130b4f10c">
           <ID>Aqi - Tbl Fact Aqi</ID>
           <Name>sum aqi</Name>
-          <Source dwd:design-time-name="58b3532f-d034-4cd1-8fa7-5f0fe01a633d">
+          <Source dwd:design-time-name="8d16a747-9a9d-4fb5-9a9f-263f3fffdeba">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="960f5c53-41b1-4953-b8d2-22fac31b930e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9342428c-e05f-4bd7-8c43-63e919d9766a">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>aqi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4fd1c52b-888e-402f-9dbd-9690f2aeb934">
+        <Measure dwd:design-time-name="89059397-8db3-4bac-9a91-2c83b8d0f96a">
           <ID>Category Count - Tbl Fact Aqi</ID>
           <Name>Category Count - Tbl Fact Aqi</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="2a13a5d3-a5cf-4f5c-9ade-f17cf44e0922">
+          <Source dwd:design-time-name="11ac8405-bb71-44a9-bcea-57bbd012f907">
             <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="731726fb-4148-4906-ab04-9a131b807819">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c58d899a-7d94-4e47-be55-10c552e1d627">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>category</ColumnID>
             </Source>
@@ -558,16 +561,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="04a2bb9e-19b5-4276-ab24-3c55b2ba4058">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8373d71e-4386-4fc5-bf3b-4ea522edd8ab">
           <CubeDimensionID>Tbl Dim States</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c53803b6-1060-47b3-ac9b-035856510cbd">
+            <Attribute dwd:design-time-name="3b5c9ec4-4f03-4d4a-8930-06b9c58d5b7a">
               <AttributeID>State Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a01ce6ba-ce8d-49fa-8283-c504b49655c1">
+                <KeyColumn dwd:design-time-name="1b817bde-e602-451c-a1d8-7a18129a8e70">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="da714286-b3da-44e3-a4f9-46a763be0a5f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5841b091-2cc7-44ef-b3ca-2586d684f515">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>state_id</ColumnID>
                   </Source>
@@ -577,16 +580,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="90bf3aa4-2d33-431f-b801-47557669bb1b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="36c01491-e42d-40b8-8a10-fe660d683117">
           <CubeDimensionID>Tbl Dim Counties</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3a117ad1-1a93-4169-ab5a-bc4dbb20390d">
+            <Attribute dwd:design-time-name="3f054433-05ab-4a7b-aa33-5cfba03e09e1">
               <AttributeID>County Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="59ca2b61-8061-46d2-9d06-dea2e3b71a18">
+                <KeyColumn dwd:design-time-name="2094de37-dd4e-42d1-9a78-73a6b972c6a8">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a58690c0-5f24-4358-8c3b-3ea48e23224d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fda98f30-eab1-4cc1-8746-432cd72fbecc">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>county_id</ColumnID>
                   </Source>
@@ -596,16 +599,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="93d757f9-d9c1-49e6-a553-61bea942b324">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aae16aee-7536-43f3-b4fb-2ac3f97dcc22">
           <CubeDimensionID>Tbl Dim Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="74a0df08-239e-4280-8e41-f2295e959610">
+            <Attribute dwd:design-time-name="bf00f326-6d21-4e6d-9fbb-e7c6dd55af61">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9045ad50-59d3-464f-8b1f-119851571a2e">
+                <KeyColumn dwd:design-time-name="d781359c-c6e3-45d8-ae88-ae93a4485f87">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8185a1e3-c7d9-4197-a2c9-3b6152d8d28e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e5cee22c-2368-423b-9c46-b98384bc3b3a">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>date_id</ColumnID>
                   </Source>
@@ -615,10 +618,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="79d8dc26-5aef-46b0-bd9d-2bf1e7974b57">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bb996ced-ba80-4db2-ae14-d3d0b6e71e0f">
           <CubeDimensionID>Tbl Dim Counties - State</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="742c758a-4264-4e35-8134-045777e5954e">
+            <Attribute dwd:design-time-name="034dca35-6d50-4e1b-b84f-085f79cffde7">
               <AttributeID>State Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -628,15 +631,15 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="c0171dea-ef0f-4215-bfe9-5ccc977eef1d">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7f2a805e-48b3-4ac7-b647-b8db63139ccc">
           <CubeDimensionID>TBL dim category</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="27a90c2b-11eb-4b0f-a3c0-b7b55ea09749">
+            <Attribute dwd:design-time-name="78043401-8857-4dfd-8d63-68f88027d4eb">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="61b1aa9c-48da-45c7-b276-73e361974014">
+                <KeyColumn dwd:design-time-name="062cd348-b2ab-4133-a085-7535ca5dfc2f">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dcedf53c-4ee6-4b33-a7f0-b2a92ded4283">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="943a51f7-ed46-41c4-9cbc-e02d201e3dd4">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -646,15 +649,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="51ac1af7-5a0f-405f-8169-389e1201a4a6">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="aa06f7a9-4c7d-4b88-a9f0-b99a40fa530a">
           <CubeDimensionID>Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="762e3c73-b145-44e4-b17d-207e99d95f9e">
+            <Attribute dwd:design-time-name="adbaf0fc-1ec7-494d-9a10-c5113050bbdd">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a185b3a3-d38d-4240-9fc2-5ddec118456f">
+                <KeyColumn dwd:design-time-name="b26c9583-4f32-45bd-aab5-87d4856515a3">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f30b04b4-90c0-4106-9b23-84aca5d076ac">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9313912f-117d-448f-bd1f-84b50154af8e">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -664,15 +667,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="93461019-e4ca-422c-b2cc-2f86fd2f0d39">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="70e961c2-57b5-4e9b-a50f-c86958d4b522">
           <CubeDimensionID>County</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="31f0c3c5-edd6-4efd-b09f-2b2e8d2cfba6">
+            <Attribute dwd:design-time-name="e43f3b10-428d-400b-92cd-9c41ecdfae77">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f28c4bd3-2f79-4d7d-8bd4-864ecb054e20">
+                <KeyColumn dwd:design-time-name="192eb9b2-08c3-40bb-a1a5-55abd991d9e9">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8564ff93-0aed-4359-b9ac-d684ee1437f2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29e8160e-ea38-446f-9c33-464d8cd5a858">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -682,15 +685,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="31a86f45-5857-47f1-8272-35f1bcc77098">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="cc2e1f79-c588-4812-b679-65c366a20679">
           <CubeDimensionID>State</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c9b21c1b-6b6f-4aa3-9a6e-30cfe0b6495d">
+            <Attribute dwd:design-time-name="e7d7a5bd-0bab-4f20-89a2-3005b822775b">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9a3561e2-a304-4e2a-b54c-486c78242831">
+                <KeyColumn dwd:design-time-name="1c6ab60a-2425-475c-8b4c-5425a18b9521">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="772cb26a-d8b3-4329-8907-935eef06812e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3acedb4-f4b4-4491-a694-46ebdf43e53c">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -700,15 +703,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="76ae227a-eb35-4ad1-af97-4f6016bda0c0">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="835c884a-14c9-42c4-9161-658891e196b3">
           <CubeDimensionID>Tbl Dim Counties - State 1</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="26b20845-5bd0-4b57-b4f1-5913dbf18377">
+            <Attribute dwd:design-time-name="6967f7da-31e4-4575-ad9b-5a040c4fca54">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c6bd6482-c327-4f4b-ac36-95a457813538">
+                <KeyColumn dwd:design-time-name="c4a0885b-28eb-4565-b4a1-6cb519d2ca9a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cd151e8b-4f01-44a3-9ab2-824af2473b52">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="284dbbbb-0464-4f82-9ca3-3ae72e73c9cf">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -721,7 +724,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="cc0610eb-5d97-4e6e-a23b-178384d64a56">
+    <MeasureGroup dwd:design-time-name="728280c8-aa22-47d9-92f9-b1e11ff8c6e3">
       <ID>Tbl Dim States</ID>
       <Name>Tbl Dim States</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -729,14 +732,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="62a3d86d-718e-4583-a4e7-68e6c5dd8957">
+        <Measure dwd:design-time-name="bd09a693-7f12-4ee0-b4da-13349d3f2569">
           <ID>Tbl Dim States Count</ID>
           <Name>Tbl Dim States Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="0596dcb1-4d0e-4fe2-b155-67b9135876a0">
+          <Source dwd:design-time-name="bbcb0293-d37c-4e65-b45c-3e253ed520d0">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="5ad30852-c59f-430e-81ee-f7b3a204c3d6">
+            <Source xsi:type="RowBinding" dwd:design-time-name="7fd632f7-fb93-4048-857f-95e5466dda5e">
               <TableID>dds_tbl_dim_states</TableID>
             </Source>
           </Source>
@@ -745,15 +748,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="de14b3fc-f861-4fc7-8010-6bc36db7e194">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="96995f6b-23c1-427f-a485-745c65c6ff59">
           <CubeDimensionID>Tbl Dim States</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="20caa572-51e5-45e1-8bbd-0a7cad479bd3">
+            <Attribute dwd:design-time-name="2be9bfdc-32b3-4dc9-b02b-30079a0962ce">
               <AttributeID>State Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b3c94af4-f600-4813-9213-19ebda1a95d6">
+                <KeyColumn dwd:design-time-name="a9d11537-8e7b-4e0e-8f20-ac8be8eed03c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b637b906-cdce-4796-9bc4-57a4e546f6fc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e0c65a65-f2e9-482c-a51a-6105f0b1f579">
                     <TableID>dds_tbl_dim_states</TableID>
                     <ColumnID>state_id</ColumnID>
                   </Source>
@@ -763,15 +766,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="053d306e-a978-491b-ab86-f9a8aa2204ad">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e8ea0745-8244-47ef-90bf-ef098600d6c5">
           <CubeDimensionID>Tbl Dim Counties - State</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="53439a0f-a10d-409d-9ce4-3b5603bab4e7">
+            <Attribute dwd:design-time-name="aed38249-6d2b-4991-8da4-2c649b0b9847">
               <AttributeID>State Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5c61ae48-8865-40f1-8954-355f7caec71b">
+                <KeyColumn dwd:design-time-name="df58b3b0-6621-4fa5-bb47-f13ebc70b90c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bfa6675f-70d3-4696-a49b-c78f0d631021">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0316d251-2863-4d89-b0eb-ea8a833e8023">
                     <TableID>dds_tbl_dim_states</TableID>
                     <ColumnID>state_id</ColumnID>
                   </Source>
@@ -784,7 +787,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="6813829d-c98c-450a-b3e6-e2768c16fe1c">
+    <MeasureGroup dwd:design-time-name="68810bc9-af74-4980-b40e-3015a9b3f59f">
       <ID>Tbl Dim Date</ID>
       <Name>Tbl Dim Date</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -792,47 +795,58 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="42782d92-f67e-444a-8f46-8ab38b1afda2">
+        <Measure dwd:design-time-name="3963acfe-0270-46e0-b053-8d8d23141790">
           <ID>Year</ID>
           <Name>Year</Name>
-          <Source dwd:design-time-name="2573cf13-26b5-4e3d-9f66-37e1bdf95b35">
+          <Source dwd:design-time-name="f1d99a92-7376-424b-b7e5-55424342d050">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a0fa33bd-cd27-4cc6-9486-84f280a411cc">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58eea591-82c7-4759-b267-3c08929ba632">
               <TableID>dds_tbl_dim_date</TableID>
               <ColumnID>year</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="34c0c216-4224-4532-8482-038f80c2c72b">
+        <Measure dwd:design-time-name="78ebeca2-d424-4894-a7bb-8f4b2dc76f6a">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
-          <Source dwd:design-time-name="ab460d31-4dbf-4818-a06b-50baa2864121">
+          <Source dwd:design-time-name="cbf17e34-6dd3-4c31-8524-5cbf989fd4cc">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="58c21c68-8987-4967-b929-46929da690f6">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="33d40214-a271-4ebf-85c8-22e09d4b2c15">
               <TableID>dds_tbl_dim_date</TableID>
               <ColumnID>quarter</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1f89c390-f450-4849-a0c0-f4390a948c69">
+        <Measure dwd:design-time-name="b8da21ab-838e-42aa-87ff-7af969ed1975">
           <ID>Month</ID>
           <Name>Month</Name>
-          <Source dwd:design-time-name="35ffca0c-a626-4d55-a805-a07bb613706c">
+          <Source dwd:design-time-name="a0ef7a55-3b8c-43ad-b9a8-4c8eef87d7f6">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e0c822bd-895f-4c9c-a42a-79e9e930fd53">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5a164da-885e-4468-87df-a4b888596b08">
               <TableID>dds_tbl_dim_date</TableID>
               <ColumnID>month</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="70270026-00e9-4237-90d1-e2c1eff60f0a">
+        <Measure dwd:design-time-name="0e95aaa5-9c15-44ec-8d52-d2968b3ed273">
           <ID>Day</ID>
           <Name>Day</Name>
-          <Source dwd:design-time-name="1a89b704-961f-4f05-ab9b-b9b6793ac461">
+          <Source dwd:design-time-name="30de910a-0a09-4c91-9aa3-b0f1d1bc69ea">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="979c866d-5f1a-4f95-ba57-d8637503756e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fd461fb9-199e-48f4-a801-5025634afa47">
               <TableID>dds_tbl_dim_date</TableID>
               <ColumnID>day</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="78711ee9-5e04-456b-b978-fdd8eb696037">
+          <ID>Is Daylight Saving</ID>
+          <Name>Is Daylight Saving</Name>
+          <Source dwd:design-time-name="a54d200f-a58c-4b1f-b54c-7eafd0bcd714">
+            <DataType>Boolean</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee8ec30e-7872-4f82-b478-bfe56dcf4022">
+              <TableID>dds_tbl_dim_date</TableID>
+              <ColumnID>is_daylight_saving</ColumnID>
             </Source>
           </Source>
         </Measure>
@@ -840,15 +854,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="4c42535b-0865-4419-a437-84ac48da77e1">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7d381dc8-9983-495b-a812-e752020697b3">
           <CubeDimensionID>Tbl Dim Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e3413a16-3f09-4d4d-b3ed-df053f3d039a">
+            <Attribute dwd:design-time-name="25e4bd2e-9c07-4684-83db-735338d9083e">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="61c1994e-5a4e-4f0c-aca4-a3af04bd4809">
+                <KeyColumn dwd:design-time-name="5f96e2d5-a812-4e3b-a835-e2b6fa94d413">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c7265ab-b88b-435f-876b-9d3ae0411d66">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="387b9fce-accd-46ab-8544-fa5b876daf0f">
                     <TableID>dds_tbl_dim_date</TableID>
                     <ColumnID>date_id</ColumnID>
                   </Source>
@@ -861,7 +875,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="16f6b745-f607-46c6-86c4-76d2c971e422">
+    <MeasureGroup dwd:design-time-name="ace31bea-04f8-4352-aa1a-e868b12fb339">
       <ID>Tbl Fact Aqi 1</ID>
       <Name>Tbl Fact Aqi 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -869,14 +883,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="1a235c54-485b-4423-93e1-033c4855d8b6">
+        <Measure dwd:design-time-name="59f6b414-f082-4d05-8396-029ff3a806c7">
           <ID>Category Distinct Count</ID>
           <Name>Category Distinct Count</Name>
           <AggregateFunction>DistinctCount</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="4e4a40c8-52c1-48bb-81e9-02922be90c62">
+          <Source dwd:design-time-name="c65f924d-5c10-4071-a192-aa26229316bd">
             <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c4ab5973-859f-444c-bba1-bf868c779501">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3ac062eb-54dc-4ee7-ae45-6c5ec6d52533">
               <TableID>dds_tbl_fact_aqi</TableID>
               <ColumnID>category</ColumnID>
             </Source>
@@ -886,16 +900,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e6e6151f-d02b-41ef-89e2-d8e91002a2eb">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="26c8cf90-ec10-46fa-95a9-ba231cb71da2">
           <CubeDimensionID>Tbl Dim States</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4be83d3e-5ea5-4acb-a154-628bdc602a1b">
+            <Attribute dwd:design-time-name="c06f9d6a-5b28-4d1f-8e55-c105a05e1195">
               <AttributeID>State Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="64edf803-b287-432a-9975-56f1f24716f6">
+                <KeyColumn dwd:design-time-name="0c12b726-56e5-415f-865b-82e7d271b5a0">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="42d67b95-e614-4fb2-a2e3-c108eb5b107c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="414ab1ab-728e-4c6c-bd6d-4c03868eb635">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>state_id</ColumnID>
                   </Source>
@@ -905,16 +919,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e2598d6b-29a8-43ff-be7d-52c43e93484f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="916957d8-b83f-4544-809a-aa49fb149306">
           <CubeDimensionID>Tbl Dim Counties</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e6a7a067-6a3f-409e-aeb0-b1c2122d6e62">
+            <Attribute dwd:design-time-name="e2d3690f-60f4-47ff-9327-ea78c86ee3b4">
               <AttributeID>County Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9de2a644-720f-4975-b1bd-e4975b352b14">
+                <KeyColumn dwd:design-time-name="8ea03015-a91b-44e9-9f5f-b73f0f07366d">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1be83abc-7026-4e3a-8b22-d8a0376ffaa5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="69d137e6-96e9-4afe-a0c9-fe9dd1985194">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>county_id</ColumnID>
                   </Source>
@@ -924,16 +938,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2e92879c-7569-416a-9526-0a17fc45c757">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a00b142c-7a61-482f-b4d3-ce4b76901e0e">
           <CubeDimensionID>Tbl Dim Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ee323f03-234c-427f-9f77-2838dddcb692">
+            <Attribute dwd:design-time-name="9b24a9b0-61ff-421a-a272-fcf4f845b04c">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="48779bfc-41d3-4126-8a5a-ef73f5b0aa2d">
+                <KeyColumn dwd:design-time-name="9f672d55-7932-405f-bf33-344b8ec66efe">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="276c83d6-2e7e-49f8-af8e-b64d2309751f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5ab9edc2-7583-4cef-a45f-2c2d8861112f">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>date_id</ColumnID>
                   </Source>
@@ -943,10 +957,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="174c4f14-6e02-4e50-8e94-3ac08319a3f6">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="3d2c4a3b-2483-4cd2-a3c6-bd67d61aae1e">
           <CubeDimensionID>Tbl Dim Counties - State</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b9f97198-a960-4c5c-bac3-ba42fad57e17">
+            <Attribute dwd:design-time-name="97492620-4b82-408e-9df2-8a3c4bd2027c">
               <AttributeID>State Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -956,15 +970,15 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e273d3a7-226e-4fa9-b963-f636d1a07105">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="889463b7-465c-484c-ba91-d86c84b4b678">
           <CubeDimensionID>TBL dim category</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="93bd4c12-a584-4945-8b58-18740f3d8cd4">
+            <Attribute dwd:design-time-name="286859c8-289c-4d71-b3f4-4210f56c675f">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d9aff244-ce4b-42cd-b098-0ac984d9c70f">
+                <KeyColumn dwd:design-time-name="10efe51a-eb44-4b8c-b775-26b19f03567d">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="216c0994-9544-4b33-a45e-9ffebe7b8738">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5addc722-9ae1-4a10-b82f-3b301fdc29dc">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -974,15 +988,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8bec0734-8866-42f3-b73d-d9f98255d83d">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f1c9bbdd-a172-4ad6-b37e-abcd45f5ac75">
           <CubeDimensionID>Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c8e6b416-c07d-43eb-a44b-2166608ec089">
+            <Attribute dwd:design-time-name="660c9557-5b7b-45de-886b-f9c21a8a9a8a">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="50a96fb3-2ace-452c-a116-9f1dbb62309a">
+                <KeyColumn dwd:design-time-name="fb83b167-6027-4461-941e-2cd81a67190b">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89a5f9ab-102a-43e9-b11c-8fb9ce6a14b9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="502b80ee-b7f7-47ad-a067-720c60c45c62">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -992,15 +1006,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="ceedd07f-2fc0-4e1b-8891-271bb381c996">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1b395dcf-42c3-4d27-9bc2-6ba5d39e5cc7">
           <CubeDimensionID>County</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f4d31fe8-7c93-40cb-97eb-c393ecfbba6f">
+            <Attribute dwd:design-time-name="158db021-b4a6-4e0b-9f62-c25b657d3c47">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fbc31742-b075-4c27-be9f-83ba6b2c8002">
+                <KeyColumn dwd:design-time-name="214ae2a3-9e65-408f-9cb9-084e802ea404">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="97530c4f-9136-4f0c-a4bf-25c245c1aba5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="232611be-7ae5-4fe8-80ca-55378cde3966">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -1010,15 +1024,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2fe54122-e913-4d1b-a579-c86abe04c6eb">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="06ca47dc-4004-41b2-97f1-5186fa4bbbc5">
           <CubeDimensionID>State</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0a241c4b-dbf9-4a83-a8fb-1aaa9733ec30">
+            <Attribute dwd:design-time-name="3553d5e4-3b20-49a8-b7d2-56bcb9233fe2">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="dd396a83-9742-4213-9969-66f55fac76f7">
+                <KeyColumn dwd:design-time-name="fe0b1ab7-2437-423b-8d11-6603bc2b0174">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec5ac373-1b72-4ca5-9a59-a5f61bf1d476">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f4625bb-fef3-4afd-b75a-c6c94615dcaf">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -1028,15 +1042,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8f6445cb-c98d-4225-a003-95e948e686d0">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="edd80a84-4e8b-4c67-919e-6acb95b2727c">
           <CubeDimensionID>Tbl Dim Counties - State 1</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="463e142f-dadd-4a64-aba7-fa114aa53c66">
+            <Attribute dwd:design-time-name="03213ce3-d16c-418a-bbbe-4cfcadc55c24">
               <AttributeID>Aqi Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fafaa9d9-ccde-49b7-8b4f-fc5c045a1fe8">
+                <KeyColumn dwd:design-time-name="72919aed-8485-4195-a9ae-3324f1134c8c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4693ecc8-decd-43e1-975f-8503d798e7d6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1964ad21-f71e-4a59-9bdf-a9f4b8a5c3eb">
                     <TableID>dds_tbl_fact_aqi</TableID>
                     <ColumnID>aqi_id</ColumnID>
                   </Source>
@@ -1050,7 +1064,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="94e16403-2b77-453f-a566-404fb5e4844b">
+  <Source dwd:design-time-name="8fc69fee-7321-483c-87ab-3fc28167c91e">
     <DataSourceViewID>AQI WAREHOUSE vw</DataSourceViewID>
   </Source>
 </Cube>
